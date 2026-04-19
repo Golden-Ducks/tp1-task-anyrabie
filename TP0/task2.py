@@ -54,7 +54,7 @@ with open('task2.txt','r', encoding='utf-8') as f:
         else:
             print(f"No contraction found for: {contraction}")
             
-    #print(text)
+    print(text)
     
     #Creating new file to save the normalised text
     with open('normalised_text.txt','w', encoding='utf-8') as f:
